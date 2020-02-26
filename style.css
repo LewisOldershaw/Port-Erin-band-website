@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.copyright {
+  color: white;
+  padding-top: 2%;
+}
+
+.copyright p {
+  text-align: center;
+  font-size: 1rem;
+}
+.backgroundIMG {
+  min-height: 100%;
+  height: 100%;
+  background-image: url("../media/bandBackground.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.main-content {
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  font-size: 3rem;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  display: table;
+  min-height: 100%;
+  padding-bottom: 1%;
+}
+
+/* <---- HEADER ---- >  */
+#homeHeader {
+  margin-top: 16%;
+}
+
+/* <---- INPUT FIELD AND SUBMIT BUTTON ----> */
+.wrapper-div {
+  font-size: 0;
+  margin-top: 2%;
+}
+
+#newsletter {
+  color: white;
+  background: transparent;
+  font-family: "Teko", sans-serif;
+  letter-spacing: 4px;
+  display: inline-block;
+  vertical-align: top;
+  height: 2.7em;
+  width: 12%;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+::-webkit-input-placeholder {
+  /* Chrome */
+  color: white;
+  font-size: 80%;
+}
+
+.submitBTN {
+  display: inline-block;
+}
+
+#formSubmit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  border: solid 1px white;
+  background-color: black;
+  font-size: 1.4rem;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2px;
+}
+
+/* <---- SOCIAL ICONS ---->  */
+.icons {
+  margin-bottom: 0.3em;
+  font-size: 1.5rem;
+}
+#facebook {
+  color: white;
+  margin-right: 0.5em;
+}
+#twitter {
+  color: white;
+  margin-right: 0.5em;
+}
+#instagram {
+  color: white;
+  margin-right: 0.5em;
+}
+
+#youtube {
+  color: white;
+  margin-right: 0.5em;
+}
+#spotify {
+  color: white;
+  margin-right: 0.5em;
+}
+#soundcloud {
+  color: white;
+  margin-right: 0.5em;
+}
+#merchandise {
+  color: white;
+}
+
+/* <---- Hover state of the content ----> */
+
+#facebook:hover {
+  color: #7a7a7a;
+  transition: color 1s ease;
+}
+#twitter:hover {
+  color: #7a7a7a;
+  transition: color 1s ease;
+}
+#instagram:hover {
+  color: #7a7a7a;
+  transition: color 1s ease;
+}
+#youtube:hover {
+  color: #7a7a7a;
+  transition: color 1s ease;
+}
+#spotify:hover {
+  color: #7a7a7a;
+  transition: color 1s ease;
+}
+#soundcloud:hover {
+  color: #7a7a7a;
+  transition: color 1s ease;
+}
+#merchandise:hover {
+  color: #7a7a7a;
+  transition: color 1s ease;
+}
+#formSubmit:hover {
+  opacity: 0.7;
+  transition: opacity 1s ease;
+}
+
+#tourBTN:hover {
+  opacity: 0.6;
+  transition: opacity 1s ease;
+}
+
+/* <---- TOUR DATES AND TICKETS ----> */
+
+.tour {
+  text-transform: uppercase;
+  font-family: "Teko", sans-serif;
+  font-size: 2rem;
+}
+
+#tourBTN {
+  padding-top: 3px;
+  text-decoration: none;
+  border: solid 4px black;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: white;
+}
+
+/* <---- CONTACT AND THE BAND ---->
+
+.contact-about {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Teko", sans-serif;
+  margin-top: 3%;
+  font-size: 0;
+}
+
+#contactBTN {
+  padding-left: 6px;
+  padding-right: 6px;
+  text-decoration: none;
+  border: solid 4px black;
+  color: white;
+  font-size: 2rem;
+}
+
+#aboutBTN {
+  padding-left: 6px;
+  padding-right: 6px;
+  text-decoration: none;
+  border: solid 4px black;
+  color: white;
+  font-size: 2rem;
+  margin-left: 20px;
+} */
+
+/* <---- TOUR-PAGE.HTML STYLES ----> */
+
+.backgroundIMG2 {
+  min-height: 100%;
+  height: 100%;
+  background-image: url("../media/TourBackground.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#tourHeader {
+  font-family: "Permanent Marker", cursive;
+}
+
+/* <---- NESLETTER FROM THE HOME PAGE ----> */
+
+#formSubmit-tourPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  border: solid 1px white;
+  background-color: black;
+  font-size: 1.4rem;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2px;
+}
+
+.wrap-content {
+  display: inline-block;
+}
+
+.wrapper-div2 {
+  font-size: 0;
+  margin-top: 2%;
+  display: inline-block;
+}
+
+#newsletter-tourPage {
+  color: white;
+  background: transparent;
+  font-family: "Teko", sans-serif;
+  letter-spacing: 4px;
+  height: 2.7em;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+/* <----  VENUES LOCATIONS AND BUTTONS ---->  */
+p {
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.date {
+  margin-top: 20%;
+}
+
+.bit-date {
+  font-size: 1.5rem;
+}
+
+.bit-location {
+  font-size: 1.5rem;
+}
+
+.event-buttons {
+  margin-top: 3%;
+  font-size: 1.5rem;
+}
+
+.bit-event-buttons {
+  text-transform: uppercase;
+  background-color: black;
+  font-family: "Teko", sans-serif;
+  text-decoration: none;
+  border: solid 4px white;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+  color: white;
+}
+
+/* <---- HOVER STYLES FOR BUTTONS ON THE TOUR PAGE ----> */
+
+#formSubmit-tourPage:hover {
+  opacity: 0.5;
+  transition: opacity 1s ease;
+}
+.bit-event-buttons:hover {
+  opacity: 0.5;
+  transition: opacity 1s ease;
+}
